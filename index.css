@@ -1,0 +1,100 @@
+	 @charset "UTF-8"; 
+	#DRLABEL {
+		min-width:125px;
+		}
+	#NUMBOX {
+		margin-left:130px;
+		}
+	#INPUTAREA {
+		background-color:#ffffff;
+		font-size:18px;
+		border-style:solid;
+		max-width:500px;
+		width:100%;
+		border-color:black;
+		}
+	body {
+		background-image:url(pinkbean.jpg);
+		background-position: top;
+		font-family:"Righteous", cursive;
+		}
+	#output {
+		background-color:#ffffff;
+		font-size:18px;
+		border-style:solid;
+		}
+	#LINKS {
+		text-align:center;
+		background-color:#ffffff;
+		border-style:solid;
+		
+		}
+	#SETTINGSBOX {
+		display:none;
+		background-color:#ffffff;
+		border-color:black;
+		font-size:18px;
+		border-style:solid;
+		width:100%;
+		}
+	#SETTINGSDIV {
+		max-width:500px;
+		}
+	#SPACER {
+		height:10px;
+		max-width:500px;
+		}
+	#topbar {
+		max-width:500px;
+		}
+	p {
+		max-width:500px;
+		}
+	h1 {
+		font-size:125%;
+		font-family:"Righteous", cursive;
+		text-shadow: 0 0 0.2em #556688, 0 0 0.2em #556688;
+	}
+	#para {
+		background-color:#ffffff;
+		max-width:500px;
+		border-style:solid;
+	}
+	#HELP {
+		display:none;
+		max-width:500px;
+		background-color:#ffffff;
+		border-style:solid;
+	}
+	#CW {
+		font-size:8px;
+		text-align:center;
+	}
+	#LINKSDIV {
+		max-width:500px;
+	}
+	#txt1 {
+		width:95%;
+	}
+	#header {
+		font-size:225%;
+		font-weight:bold;
+		max-width:494px;
+		font-family:"Fredoka One", cursive;
+		text-shadow: 0 0 0.2em #556688, 0 0 0.2em #556688; 
+	}
+	img {
+		vertical-align:0%;
+	}
+	input {
+		width:95%;
+	}
+	#tracker {
+		display:none;
+	}
+	
+
+	
+	
+	
+	

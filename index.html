@@ -1,0 +1,75 @@
+<!doctype html>
+<html> 
+		<head>
+			<title>Pink Bean Timer</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/> 
+			<meta charset="UTF-8"> 
+			<script type="text/javascript" src="jquery.js"></script>
+			<script type="text/javascript" src="index.js"></script>
+			<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Fredoka+One">
+			<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Righteous"> 
+			<link rel="stylesheet" type="text/css" href="index.css"> 
+		</head>
+	<body>
+		<div id="header">
+			<img src="pbico.png" alt="PB" />
+			Pink Bean Timer
+		</div>
+		<div id="SPACER"></div>
+		<div id="topbar">
+			<table id="INPUTAREA">
+				<tr>
+					<td id="DRLABEL">DR Time:</td>
+					<td><input type="number" id="txt1"/></td>
+				</tr>
+			</table>
+			<br />
+			<div id="output">Start: 0 - Stop: 0</div>
+		</div>
+		<br />
+		<br />
+	<div id="LINKSDIV">
+		<div id="LINKS">
+			<a href="" id="SETTINGSLINK">Settings</a>:<a href="" id="HELPLINK">Help</a>
+		</div>
+	</div>
+	<div id="SETTINGSDIV">
+		<br />
+		<table id="SETTINGSBOX">
+			<tr>
+				<td>Reset input box:</td>
+				<td><input type="checkbox" id="resetcheck" checked /></td>
+			</tr>
+			<tr>
+				<td>Seconds before input reset:</td>
+				<td><input type="number" id="resetseconds" value="2"/></td>
+			</tr>
+			<tr>
+				<td>DR Cooldown:</td>
+				<td><input type="number" id="drcooldown" value="45"/></td>
+			</tr>
+			<tr>
+				<td>DR Length:</td>
+				<td><input type="number" id="drlength" value="25"/></td>
+			</tr>
+		</table>
+	</div>
+	<div id="HELP">
+			<h1>Synopsys:</h1>
+			<p>Pink Bean uses it's damage reflect (DR) skill every 45 seconds and damage reflect lasts for 25 seconds.  This leaves 20 seconds of safe attacking time from when damage reflect runs out until its able to cast damage reflect again (45 Second Cooldown).  In the Pink Bean boss' map there is a timer like many boss maps. It is imperative to carefully watch what the time is at every time Pink Bean uses damage reflect.  Most importantly the amount of seconds.</p>
+			<h1>Usage:</h1>
+			<p>Take the time Pink Bean used damage reflect (JUST SECONDS!) and enter that number into the 'DR Time' box. The start and end time are calculated.  Use the start and end time as a guide when to start attacking and then stop again before damage reflect is cast again.</p>
+			<h1>Example 1:</h1>
+			<p>Pink Bean used damage reflect at 45:50 on the clock. 50 is entered into the 'DR Time' box.  The start time is 25 and the end time is 5.  With this information you now know it is safe to attack at 45:25 and you need to stop attacking BEFORE 45:05.</p>
+			<h1>Example 2:</h1>
+			<p>Pink Bean used damage reflect at 45:05 on the clock. 5 is entered into the 'DR Time' box.  The start time is 40 and the end time is 20. With this information you now know it is safe to attack at 44:40 and you need to stop attacking BEFORE 44:20. Remember to subtract one minute if your DR Time is less than 45 or 25.</p>
+	</div>
+	<div id="CW">
+		<p>&copy;Copyright 2012 Ian C. (Phantopus/Bigstaff/Hilt)</p>
+	</div>
+
+
+</body>
+
+
+</html>
